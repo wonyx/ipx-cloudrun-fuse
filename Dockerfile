@@ -34,7 +34,7 @@ RUN apt-get update && apt-get install -y \
     apt-get clean
 
 # Set fallback mount directory
-ENV MNT_DIR /mnt/gcs
+ENV MNT_DIR /app/gcs
 
 # Copy local code to the container image.
 ENV APP_HOME /app
